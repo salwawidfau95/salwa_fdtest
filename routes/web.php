@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Password;
     Route::post('/register', [AuthController::class, 'register']);
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
-    Route::get('/landing', [BookController::class, 'landing'])->name('landing');
+    Route::get('/', [BookController::class, 'landing'])->name('landing');
 
     // Email Verification
     Route::get('/email/verify', function () {
