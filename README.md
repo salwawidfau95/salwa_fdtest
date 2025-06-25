@@ -49,9 +49,9 @@ Semua fitur frontend dibuat secara **manual menggunakan Blade + Tailwind CSS**, 
   - User bisa melihat daftar buku miliknya
 
 - ⚠️ Test untuk Auth (register/login/logout):
-  - Sudah dibuat (`AuthTest.php`)
-  - Namun **mengalami error CSRF token 419** meskipun middleware telah dicoba dinonaktifkan
-  - **Fitur berjalan normal secara manual**, namun test otomatis gagal karena Laravel CSRF strict
+  - Sudah dibuat (AuthTest.php), namun mengalami error CSRF token (419) meskipun middleware telah dicoba dinonaktifkan.
+  - Hal ini terjadi karena Laravel versi 10+ lebih strict terhadap CSRF dan session saat testing.
+  - Fitur tetap berjalan normal saat diuji manual melalui browser.
 
 ---
 
