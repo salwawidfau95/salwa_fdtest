@@ -10,7 +10,7 @@
 <body class="min-h-screen flex items-center justify-center relative">
 
     <!-- Tombol Back -->
-    <a href="{{ route('landing') }}n"
+    <a href="{{ route('landing') }}"
         class="absolute top-10 left-10 flex items-center gap-1 px-4 py-2 rounded-full bg-purple-100 shadow hover:bg-purple-200 border border-purple-300 transition text-sm font-medium text-purple-700 hover:text-purple-800">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />

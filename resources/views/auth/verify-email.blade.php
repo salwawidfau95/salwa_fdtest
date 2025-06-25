@@ -40,6 +40,10 @@
                 Logout
             </button>
         </form>
+
+        <a href="{{ route('dashboard') }}" class="mt-2 inline-block text-sm text-gray-500 hover:underline">
+            Lanjutkan ke Dashboard tanpa verifikasi
+        </a>
     </div>
 
 </body>
